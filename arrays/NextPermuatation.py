@@ -1,4 +1,4 @@
-"""##### 13. Next Permutation
+""" 13. Next Permutation
 
 
 A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
@@ -32,7 +32,7 @@ def nextPermutation(arr):
         return
     n = len(arr)-1
     i = n-1
-    while(i > 0 and arr[i] > arr[i+1]):
+    while(i > 0 and arr[i] >=arr[i+1]):
         i = i-1
     j = n
     if(i > 0):
