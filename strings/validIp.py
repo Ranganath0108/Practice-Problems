@@ -11,7 +11,7 @@ The numbers cannot be 0 prefixed unless they are 0.
 """
 
 
-from sympy import re
+]
 
 
 def is_valid(ip):
