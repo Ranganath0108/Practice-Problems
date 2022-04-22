@@ -10,10 +10,6 @@ The numbers cannot be 0 prefixed unless they are 0.
 
 """
 
-
-]
-
-
 def is_valid(ip):
     ip = ip.split(".")
 
