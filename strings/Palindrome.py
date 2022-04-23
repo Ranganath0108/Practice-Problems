@@ -1,6 +1,6 @@
 """Check whether the string is palindome or not"""
 
-from sympy import re
+
 
 
 def is_palindrome(s):
